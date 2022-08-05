@@ -1,0 +1,22 @@
+## 在 Git 中忽略临时文件，环境信息，编译结果和中间文件等
+
+~$*
+*~
+node_modules/
+out/
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+
+# JetBrains 
+.idea/
+
+dist
+stats.json
+*.tgz
+*.zip
+
+# Scrapbooks
+*.mongo
+
+.DS_Store
